@@ -1,0 +1,75 @@
+
+        
+<div class='some-page-wrapper'>
+  <div class='row'>
+    <div class='column'>
+      <div class='blue-column'>
+        Some Text in Column One
+      </div>
+    </div>
+    <div class='column'>
+      <div class='green-column'>
+        
+
+
+  <div class="container9">
+
+  <div class="child">
+
+
+
+
+
+
+    <div class="login-container">
+      <span class="side-nav"></span>
+   
+    
+
+      <h4><%= resource_class.name.eql?('User') ? t('views.sessions.portal sign_in') : t('views.sessions.client_sign_in') %></h4>
+      <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {novalidate: '', id: 'user_login' , class: 'col s12'}) do |f| %>
+        <div class='input-field'>
+
+          <label for='email'><%= t('views.common.email') %></label>
+          
+          <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+
+          
+        </div>
+        <div class='input-field'>
+       <label for='password'><%= t('views.staffs.password') %></label>  
+
+       <%= f.password_field :password, autocomplete: "current-password" %>
+          
+        </div>
+        
+        <div class="btn-content">
+          <%= f.button t('views.sessions.submit'), type: 'submit' , name: 'btn_login' ,class: 'col s4 btn waves-effect', id: 'user_login_btn'  %>
+          <% if resource_class.name.eql?('User') %>
+
+           <%= f.submit "Log in1" %>
+            
+          <% end %>
+        </div>
+      <%end%>
+      <p class='col'>
+        <%= t('views.sessions.Powered_by') %>: <%= link_to 'Bright Innovations' %>
+      </p>
+      <% if User.all.empty? %>
+        <a href="<%= new_user_registration_path %>" class="btn-login-add btn-floating btn-large waves-effect waves-light"><i class="material-icons">add</i></a>
+      <% end %>
+    </div>
+  </div>
+
+
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</div>
+
+

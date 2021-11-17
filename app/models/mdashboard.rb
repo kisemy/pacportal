@@ -1,0 +1,2 @@
+class Mdashboard < ApplicationRecord
+end

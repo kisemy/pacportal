@@ -1,0 +1,2 @@
+module MdashboardsHelper
+end

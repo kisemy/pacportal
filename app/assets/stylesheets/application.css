@@ -1,0 +1,255 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+/* background-image: url("PACbg.png");   
+/*= background-image: inherit; /*use default, no image color : #A22700;
+
+ background: #E6E7E8; 
+background: #A22700;*/
+font-family: "Roboto";
+}
+
+    H1 { 
+        /*= background-image: url("brightred.png");
+    	
+    	color: #ffffff; /*also you can try inherit        background-image: url("brightred.png"); */ 
+   background: #E6E7E8;
+font-family: "Roboto";
+        /*font-weight: 200;*/ 
+    } 
+
+
+
+ H3 { 
+        /*= background-image: url("brightred.png");
+    	
+    	color: #ffffff; /*also you can try inherit        background-image: url("brightred.png"); */ 
+   background: #E6E7E8;
+font-family: "Roboto";
+        /*font-weight: 200;*/ 
+    } 
+
+ .container2 {
+ background-image: url("finalpac.png");  
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 1500px;
+ height: 200px;
+ /*border: 2px dashed #333;*/
+
+}
+
+
+.container3 {
+ background-image: url("panel2.png");  
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 1500px;
+ height: 500px;
+ /*border: 2px dashed #333;*/
+
+}
+
+.container4 {
+ background-image: url("gray4.png");  
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 1500px;
+ height: 2000px;
+ /*border: 2px dashed #333;*/
+
+}
+
+
+
+
+
+.container5 {
+ background-image: url("footerstrip8.png");  
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 1500px;
+ height: 100px;
+ /*border: 2px dashed #333;*/
+
+}
+
+
+.containerr1 {
+ background-image: url("envelope3.png");  
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 1500px;
+ height: 700px;
+ /*border: 2px dashed #333;*/
+
+}
+
+
+
+
+.containerdb{
+ background-image: url("dashstrip2.png"); 
+
+ height: 2000px;
+ width: 350px;
+}
+
+
+ H5 { 
+        background-image: url("gray4.png2");
+    	
+    	/*color: #ffffff; /*also you can try inherit        background-image: url("brightred.png"); */ 
+  /* background: #E6E7E8;*/
+font-family: "Roboto";
+   font-weight: 400;
+
+color: #ffffff;
+
+    } 
+
+/*
+.login-container{
+ background-image: url("login.png"); 
+ background-repeat: no-repeat;
+ background-position: center;
+
+ border: 2px dashed #333;
+
+}
+
+
+
+
+.some-page-wrapper {
+  margin: 15px;
+  background-color: red;
+}
+*/
+
+.some-page-wrapper2 {
+  margin: 15px;
+ background-image: url("redbg22.png");
+ 
+}
+
+
+
+.some-page-wrapper2 {
+  margin: 200px;
+ 
+ 
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  flex: 1;
+}
+
+
+.blue-column {
+   background-image: url("edge2120.png"); 
+  /*background-color: white;*/
+  height: 400px;
+}
+
+.green-column {
+ background-image: url("edge1120.png"); 
+  /*background-color: gray;*/
+  height: 400px;
+}
+
+
+.container9 {
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  width: 200px;
+  height: 250px;
+  /*background-color: red;*/
+}
+
+
+
+.container10{
+  /*background-image: url("redbg.png");dashmultired2.png*/
+}
+
+.box1 {
+
+background-image: url("dashmultired2.png"); 
+    }
+
+.box2 {
+
+background-image: url("dashmultiredlight-1.png"); 
+    }
+
+.box3 {
+
+background-image: url("dashmultigray.png"); 
+    }
+
+.box4 {
+
+background-image: url("dashmultigraylight.png"); 
+    }
+
+
+
+.rowx {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.columnx {
+  font-family: "Roboto";
+  padding: 15px;
+}
+
+.roww {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.columnw {
+  font-family: "Roboto";
+  padding: 15px;
+}
+
+
+
+

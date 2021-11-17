@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Name: MyText
+  Location: MyText
+  Region: MyText
+  Marital_status: MyText
+  Telephone: MyText
+  Next_of_Kin: MyText
+
+two:
+  Name: MyText
+  Location: MyText
+  Region: MyText
+  Marital_status: MyText
+  Telephone: MyText
+  Next_of_Kin: MyText

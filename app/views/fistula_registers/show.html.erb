@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @fistula_register.Name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @fistula_register.Location %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @fistula_register.Region %>
+</p>
+
+<p>
+  <strong>Marital status:</strong>
+  <%= @fistula_register.Marital_status %>
+</p>
+
+<p>
+  <strong>Telephone:</strong>
+  <%= @fistula_register.Telephone %>
+</p>
+
+<p>
+  <strong>Next of kin:</strong>
+  <%= @fistula_register.Next_of_Kin %>
+</p>
+
+<%= link_to 'Edit', edit_fistula_register_path(@fistula_register) %> |
+<%= link_to 'Back', fistula_registers_path %>
